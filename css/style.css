@@ -1,4 +1,8 @@
-
+@font-face {
+  font-family: "fa";
+  src: url("./fa.woff2") format("woff2");
+}
+  
 body {
   /* size: 1700mm 850mm; */
   margin: 0px;
@@ -10,6 +14,7 @@ body {
 }
 h1 {
   color: green;
+  font-family: "fa";
 }
 
 label {
@@ -24,11 +29,18 @@ input {
   border: none;
   display: block;
   background-color: transparent;
+  font-family: "fa";
+}
+
+.inputs {
+	font-family: "fa";
+	color: blue;
 }
 #dateInNum {
   position: absolute;
   top: 8.65mm;
   left: 107mm;
+  /*width: 100mm;*/
 }
 #dateInWords {
   position: absolute;
@@ -38,7 +50,7 @@ input {
 }
 #girande {
   position: absolute;
-  top: 43.05mm;
+  top: 44mm;
   left: 47.13mm;
   height: 8mm;
   width: 100mm;
@@ -78,7 +90,8 @@ input {
 
 @media print {
   @page {
-    size: 170mm 85mm;
+    /*size: 170mm 85mm;*/
+    size: A4;
     margin: 0;
   }
     body {
