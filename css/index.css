@@ -1,0 +1,37 @@
+@font-face {
+  font-family: "fa";
+  src: url("./fa.woff2") format("woff2");
+}
+html {
+  height: 100%;
+  box-sizing: border-box;
+  background: #20002c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #cbb4d4, #20002c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #cbb4d4, #20002c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-repeat: no-repeat;
+
+}
+body {
+  font-family: "fa";
+  color: white;
+  text-align: center;
+}
+ul {
+  text-align: center;
+  margin: auto;
+  width: auto;
+}
+li {
+  list-style-type: none;
+}
+
+a {
+  color: white;
+}
+a:checked {
+  color: white;
+}
+a:active {
+  color: white;
+  
+}

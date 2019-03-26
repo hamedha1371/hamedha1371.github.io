@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "fa";
+  src: url("./fa.woff2") format("woff2");
+}
+html {
+
+/* z-index: 1; */
+
+}
+
+body {
+  /* size: 1700mm 850mm; */
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-image: url("../pics/melat.png");
+  background-size: 170mm 85mm;
+  background-repeat: no-repeat;
+
+
+}
+h1 {
+  color: green;
+  font-family: "fa";
+}
+div {
+
+}
+
+label {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  display: block;
+  background-color: transparent;
+  font-family: "fa";
+}
+
+.inputs {
+	font-family: "fa";
+	color: blue;
+}
+#dateInNum {
+  position: absolute;
+  top: 8.65mm;
+  left: 107mm;
+  /*width: 100mm;*/
+}
+#dateInWords {
+  position: absolute;
+  top: 12.8mm;
+  left: 107mm;
+
+}
+#girande {
+  position: absolute;
+  top: 44mm;
+  left: 47.13mm;
+  height: 8mm;
+  width: 100mm;
+}
+#amountInNum {
+  position: absolute;
+  top: 19.53mm;
+  left: 18.3mm;
+  height: 8mm;
+  width: 40mm;
+}
+#amountInWords {
+  position: absolute;
+  top: 31.95mm;
+  left: 19mm;
+  height: 8mm;
+  width: 105mm;
+}
+.box {
+  height: 100mm;
+  width: 70mm;
+  position: absolute;
+  top: 10mm;
+  left: 50mm;
+  display: block;
+  display: none;
+
+  background-color: #AF00aa;
+
+}
+
+
+
+
+
+
+
+@media print {
+  @page {
+    /*size: 170mm 85mm;*/
+    size: A4;
+    margin: 0;
+  }
+    body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transform: rotate(00deg) translateX(20mm) translateY(3mm);
+  /* height: 85mm;
+  width: 170mm;
+  border: 2px solid black; */
+}
+h1 {
+  color: blue;
+}
+body {
+  /* size: 1700mm 850mm; */
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-image: url("../pics/melat.png");
+  background-size: 170mm 85mm;
+  background-repeat: no-repeat;
+  background: none;
+}
+h1 {
+  color: green;
+}
+
+label {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+input {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  display: block;
+  background-color: transparent;
+}
+#dateInNum {
+  position: absolute;
+  top: 8.65mm;
+  left: 107mm;
+}
+#dateInWords {
+  position: absolute;
+  top: 12.8mm;
+  left: 107mm;
+
+}
+#girande {
+  position: absolute;
+  top: 43.05mm;
+  left: 47.13mm;
+  height: 8mm;
+  width: 100mm;
+}
+#amountInNum {
+  position: absolute;
+  top: 19.53mm;
+  left: 18.3mm;
+  height: 8mm;
+  width: 40mm;
+}
+#amountInWords {
+  position: absolute;
+  top: 31.95mm;
+  left: 19mm;
+  height: 8mm;
+  width: 105mm;
+}
+/* html {
+  margin: 100mm 0mm 0mm 0mm;
+  padding: 0mm 0mm 0mm 0mm;
+} */
+
+
+}
