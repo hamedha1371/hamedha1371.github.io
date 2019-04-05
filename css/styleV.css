@@ -149,32 +149,32 @@ input {
 }
 #dateInNum {
   position: absolute;
-  top: 8.65mm;
+  top: 9.65mm;
   left: 107mm;
 }
 #dateInWords {
   position: absolute;
-  top: 12.8mm;
+  top: 13.8mm;
   left: 107mm;
 
 }
 #girande {
   position: absolute;
-  top: 43.05mm;
+  top: 45.05mm;
   left: 47.13mm;
   height: 8mm;
   width: 100mm;
 }
 #amountInNum {
   position: absolute;
-  top: 19.53mm;
+  top: 20.53mm;
   left: 18.3mm;
   height: 8mm;
   width: 40mm;
 }
 #amountInWords {
   position: absolute;
-  top: 31.95mm;
+  top: 32.95mm;
   left: 22mm;
   height: 8mm;
   width: 105mm;
